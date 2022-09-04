@@ -1,7 +1,7 @@
 ---
 name: Invisible Map Benchmarking
 tools: [Python, C, Swift]
-image: /_includes/imgs/imlogo.png
+image: https://imgur.com/IEN27GP.png
 description: I had the chance to work as a researcher in OCCaM lab, where I helped create a benchmarking system to quantitatively evaluate a backend map generation system in order to guide future work and design decisions.
 ---
 
@@ -17,7 +17,7 @@ In the past, there was no infrastructure to quantitatively assess map accuracy a
 ## Obtaining Ground Truth Data
 Previously, past members attempted several different methods to obtaining ground truth data, which varied from manually measuring AprilTag positions to using a floor plan to calculate their distances. However, none of this systems produced reliable data. As a result, two of my peers and I began researching other methods for obtaining ground truth data, which is when we found [rtabmap](http://introlab.github.io/rtabmap/). RTABMap is an open source mobile and desktop application that can be used to generate 3D point clouds of indoor spaces. An example point cloud is shown below:
 
-![Sample RTABMap Point Cloud](/_includes/imgs/rtabmap.png)
+![Sample RTABMap Point Cloud](https://i.imgur.com/6dOJEqJ.png)
 
 Most importantly to us, the application has support for scanning AprilTags and recording their position in the 3D map. With a few modifications to the codebase, I was able to add functionality to exporting the position and orientation of each AprilTag in the global reference frame (relative to the position of the phone when the app is started) once a scan has finished. This allowed us to generate ground truth data on the position of AprilTags in our testing environment.
 
@@ -26,7 +26,7 @@ Our next step was to add support for assessing how each generated map compared t
 
 We also created visualizations that show us how well the optimization adjusts the tags (whether they are moved towards or away from the ground truth tag position). An example of such visualization is shown below:
 
-![Sample Ground Truth Visualization](/_includes/imgs/SampleGT.png)
+![Sample Ground Truth Visualization](https://imgur.com/tdXC6Bx.png)
 
 For more information about our summer work, check out our [final presentation]()!
 
