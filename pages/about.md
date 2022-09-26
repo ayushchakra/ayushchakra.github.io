@@ -17,4 +17,4 @@ I am also leading the Vehicle Integration and Optimization subteam of [Olin Elec
 
 During my first year, I had the chance to work in Olin's [Human Augmentation Laboratory](https://pages.olin.edu/human-augmentation-lab/), which is investigating how augmented reality can enhance daily life. Towards this goal, I developed a [hand signal classification system]() that can classify a user's hand signal in real-time, triggering a response on an augmented reality headset.
 
-In my free time, I love spending time at the gym or rock climbing, playing the tuba, and going to [Dunkin](https://www.dunkindonuts.com/en).
+In my free time, I love spending time at the gym or rock climbing :running:, playing the tuba :notes:, and going to [Dunkin](https://www.dunkindonuts.com/en) :coffee:.
