@@ -6,7 +6,7 @@ description: Hole in the Camera is a fun, at-home game that challenges users to 
 ---
 
 # Hole in the Camera
-Hole in the Camera was a game I developed as part of my first-year Software Design Final project. The game is modelled after the popularo Nickelodean game show, [Hole in the Wall](https://en.wikipedia.org/wiki/Hole_in_the_Wall_(American_game_show)). Hole in the Camera is an at-home friendly version of the popular game show. Each competitor is presented with 7 holes (camera masks) that they need to fit into. Their score for each trial is based on how well their body position fits into the mask (out of 100). The full project can be found [here](https://olincollege.github.io/hole-in-the-camera/). 
+Hole in the Camera was a game I developed as part of my first-year Software Design Final project. The game is modelled after the popularo Nickelodean game show, [Hole in the Wall](https://en.wikipedia.org/wiki/Hole_in_the_Wall_(American_game_show)). Hole in the Camera is an at-home friendly version of the popular game show. Each competitor is presented with 7 holes (camera masks) that they need to fit into. Their score for each trial is based on how well their body position fits into the mask (out of 100). The full project can be found [here](https://olincollege.github.io/hole-in-the-camera/) and the full project presentation and demo can be found [here](https://www.youtube.com/watch?v=Sm--6dE8Xso).
 
 ## Technical Overview
 ### OpenCV
