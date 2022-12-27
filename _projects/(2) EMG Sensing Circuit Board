@@ -1,7 +1,7 @@
 ---
 name: EMG Sensing Circuit Board
 tools: [KiCAD, Arduino, Python]
-image: TBD
+image: https://i.imgur.com/3RoDsEX.jpg
 description: During my sophomore year, I developed a PCB designed to measure 4 separate Electromyography signals.
 ---
 
@@ -26,7 +26,7 @@ Once the hardware was designed and sent for fabrication, we started designing th
 
 On the software side, we initialize a dictionary to store the EMG data, along with the time it was received, for every EMG channel. The data is received via serial and processed using the pyserial library. Then, using matplotlib, we create a dynamically updating plot that displays the most recent 10 seconds of data for each channel. A sample visualization is shown below.
 
-![Sample Python Visualization of EMG](https://imgur.com/doJ9o3h)
+![Sample Python Visualization of EMG](https://i.imgur.com/doJ9o3h.png)
 
 ## Results
 With the current hardware, we have received inconsistent results in processing and analyzing EMG data from the sensing board. At times, we are able to properly receive data. This is demonstrated in our [one-channel demo](https://www.youtube.com/watch?v=9YESAbq6-Ng). However, there are issues with running all four channels working synchronously. During some tests, all four channels can be properly monitored for a brief period of time, but, in most tests, only one or two channels yield expected results while the others constantly remain undetectable. The full demo of the current state of the system can be found [here](https://www.youtube.com/watch?v=dAzlrd0NfQ0&feature=youtu.be).
